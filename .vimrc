@@ -1,8 +1,6 @@
 " Enable syntax highlighting
 syntax on
 
-colorscheme railscat
-
 set nocompatible
 
 " Determines filetype base on name/content. Allows auto-indenting too.
@@ -29,10 +27,9 @@ set confirm
 
 set mouse=a
 
-set number
-
 " Indentation settings for using hard tabs for indent. Display tabs as
 " two characters wide.
 set shiftwidth=2
 set tabstop=2
-" 
+
+let python_highlight_all = 1
