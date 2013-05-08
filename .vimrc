@@ -18,6 +18,9 @@ set hlsearch
 set backspace=indent,eol,start
 
 set autoindent
+set expandtab
+set smarttab
+
 
 set nostartofline
 
@@ -29,7 +32,7 @@ set mouse=a
 
 " Indentation settings for using hard tabs for indent. Display tabs as
 " two characters wide.
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
 
 let python_highlight_all = 1
